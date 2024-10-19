@@ -1,0 +1,74 @@
+$pri-color: #000;
+$second-color: #fff;
+$btn-bg:#228bca;
+
+// common form field
+.form-content {
+    padding: 15px;
+    .form-group {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    .form-offer {
+        padding: 0 0 10px; 
+        font-size: 18px;
+        color: #333;
+        text-align: center;
+    }
+    
+    .terms {
+        color: #333;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .cont-number {
+        padding: 0 10px
+    }
+    .number-group{
+        display: flex;
+        .country-code{
+            width: 44%;
+            margin-right: 6px;
+        }
+    }
+    .country-code select,
+    .m-number-cont .form-control,
+    .name-cont .form-control,
+    .register-submit {
+        height: calc(2.3em + .75rem + 0px);
+        width: 100%;
+        font-size: .875em;
+        border-radius: 0;
+        font-size: 12px;
+    }
+
+    select {
+        border: 1px solid 1px #949494;
+        color: #495057;
+    }
+    .form-control {
+        border: 1px solid #949494;
+    }
+    
+    .country-code select {
+        padding: 0 10px;
+        background: $second-color;
+    }
+    
+    .term-condition {
+        font-size: .875em;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+    
+    .country-code,
+    .m-number-cont,
+    .name-cont {
+        margin-bottom: 15px;
+        position: relative;
+    }
+}

@@ -1,0 +1,245 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #333;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+  font-size: 1em;
+  background-repeat: no-repeat;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+    max-width: 590px;
+    margin: 0 auto;
+	text-align: center;
+}
+ul, ol{
+	list-style: none;
+}
+
+h2{
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.top-bar {
+    /* background: #000; */
+    background: "black";
+    border-bottom: 2px solid #333;
+    text-align: center;
+
+}
+
+
+/* thanks page css start */
+.top-bar.th-top-bar {
+    padding: 25px 0;
+}
+/* .th-Logo img {
+    width: 200px;
+} */
+.body-content.thanks-page{
+	/* height:calc(100vh - 86px); */
+    background-image: linear-gradient(rgb(239 239 239 / 10%), rgb(251 197 24 / 62%)), url(../img/banner1.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.thankyou-container{
+    background: rgb(51 51 51 / 40%);
+    padding: 50px 0;
+    /* height: calc(100vh - 86px); */
+}
+/* .thankyou-container .container{
+	background: rgb(51 51 51 / 69%);
+} */
+.helpful-content {
+	margin: 0 auto;
+    background: rgb(0 0 0 / 60%);
+    padding: 30px 5px;
+    /* width: 690px; */
+}
+.helping h4{
+	color: #fff;
+	margin-bottom: 15px;;
+}
+.help-item a{
+	text-decoration: none;
+}
+.btn {
+    color: #f3f3f3;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 500;
+	display: inline-block;
+	vertical-align: top;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.btn-success {
+    color: #fff;
+    background-color: #40ca3c;
+    border-color: #40ca3c;
+}
+.thankyou-container strong {
+    width: 440px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    color: #222;
+}
+.thankyou-container label{
+	font-size: 0.875em;
+}
+.help-item .btn-success{
+	background: #42ea5f;
+}
+.help-item .btn-success:hover, .help-item .btn-success:focus{
+	background: #3edc59;
+}
+.help-item img{
+	width: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.help-item span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.video-play{
+	width: 600px;
+	margin: 0 auto;
+}
+.ty-cont{
+	background: #fff;
+    border-radius: 5px 5px 0 0;
+    padding: 0 5px;
+}
+.helping, .social-icons{
+	margin-bottom: 20px;
+}
+.icon-ok {
+    display: block;
+}
+.ty-cont h2 {
+    margin-bottom: 5px;
+    color: #f36f21;
+    padding: 10px 0;
+}
+.ty-cont h2 i{
+	color: #f36f21;
+}
+.sc-icons {
+background: #000;
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 10px 0 10px 0px;
+}
+.icon-facebook-circled-1, .icon-facebook-circled-1:hover{
+	color: #495e98;
+}
+.icon-twitter-circled, .icon-twitter-circled:hover{
+	color: #41c3ea;
+}
+.icon-gplus-circled, .icon-gplus-circled:hover{
+	color: #dd5144;
+}
+.icon-linkedin-circled, .icon-linkedin-circled:hover{
+	color: #0077b4;
+}
+.icon-instagram-circled, .icon-instagram-circled:hover{
+	background:linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.social-icons a{
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 10px;
+}
+.logoImg {
+    width: 240px;
+}
+.th-Logo{
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-shadow: 1px 0px 2px #767676;
+    position: relative;
+}
+.homesfy-logo{
+	width: 150px;
+	height: 30px;
+	margin-top: 5px;
+	float: right;
+}
+.icon-ok {
+    display: block;
+}
+.loan-img{text-align: center;} 
+.loan-img img{display: inline-block; width: 100px; margin: 20px 0; } 
+.loan-img a{max-width: 100%; vertical-align: middle; margin: 20px auto 0;color: #fff;border: 1px solid #fff;padding: 10px; text-decoration: none;}
+/* thanks page css end */
+
+@media (min-width: 320px) and (max-width: 767px){
+	/* thank you */
+	.video-play{
+		width: 100%;
+	}
+	.helpful-content,
+	.thankyou-container strong,
+	.video-play{
+		width: 100%;
+	}
+	.body-content.thanks-page {
+		height: calc(100vh - 86px);
+	}
+	header.th-top-bar{
+		position: relative !important;
+	}
+	.homesfy-logo{
+		width: 110px;
+		margin-top: 15px;
+	}
+	.help-item .btn-primary{
+		margin-bottom: 5px;
+	    vertical-align: top;
+	}
+	.thankyou-container{
+		padding-bottom: 0;
+	}
+    .loan-img a{
+        font-size: 14px;
+    }
+
+}
+.back_link h3 a
+{
+	font-size: 18px;
+}
+.back_link h3  a {
+    padding: 10px 20px;
+    text-align: center;
+    display: table;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+}
